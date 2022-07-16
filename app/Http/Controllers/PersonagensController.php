@@ -121,8 +121,9 @@ class PersonagensController extends Controller
         return redirect('/personagens');
     }
 
-    public function ola($name)
+    public function hello()
     {
+        $name = 'Taylor';
         return view('hello', compact('name'));
     }   
 
