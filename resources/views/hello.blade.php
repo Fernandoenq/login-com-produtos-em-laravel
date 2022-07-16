@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ola {{ $name }}</h1>
+    <h1>Ola {{ $name }}</h1>
 </body>
 </html>
