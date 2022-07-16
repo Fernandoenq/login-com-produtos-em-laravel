@@ -132,4 +132,14 @@ class PersonagensController extends Controller
         $energy = 8001;
         return view('dbz', compact('energy'));
     }
+
+    public function clients()
+    {
+        $names = [
+            "Fernando",
+            "Juliano",
+            "Ana Beatriz"
+        ];
+        return view('clients', compact('names'));
+    }
 }

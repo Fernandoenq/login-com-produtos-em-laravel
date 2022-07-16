@@ -45,3 +45,4 @@ Route::post('/personagens/update/{product}', [PersonagensController::class, 'upd
 Route::get('/personagens/delete/{product}', [PersonagensController::class, 'destroy']);
 Route::get('/personagens/hello', [PersonagensController::class, 'hello']);
 Route::get('/personagens/dbz', [PersonagensController::class, 'dbz']);
+Route::get('/personagens/clients', [PersonagensController::class, 'clients']);
