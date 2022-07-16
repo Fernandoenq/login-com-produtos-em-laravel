@@ -124,10 +124,11 @@ class PersonagensController extends Controller
     public function ola($name)
     {
         return view('hello', compact('name'));
-    }
+    }   
 
     public function dbz()
     {
-        
+        $energy = 8001;
+        return view('dbz', compact('energy'));
     }
 }
