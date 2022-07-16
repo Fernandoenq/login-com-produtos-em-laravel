@@ -43,4 +43,5 @@ Route::get('/personagens/show/{product}', [PersonagensController::class, 'show']
 Route::get('/personagens/edit/{product}', [PersonagensController::class, 'edit']);
 Route::post('/personagens/update/{product}', [PersonagensController::class, 'update']);
 Route::get('/personagens/delete/{product}', [PersonagensController::class, 'destroy']);
-Route::get('/personagens/hello', [PersonagensController::class, 'ola']);
+Route::get('/personagens/hello/{name}', [PersonagensController::class, 'ola']);
+Route::get('/personagens/dbz', [PersonagensController::class, 'dbz']);

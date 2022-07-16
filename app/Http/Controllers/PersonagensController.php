@@ -121,9 +121,13 @@ class PersonagensController extends Controller
         return redirect('/personagens');
     }
 
-    public function ola()
+    public function ola($name)
     {
-        $name = 'usuário!';
         return view('hello', compact('name'));
+    }
+
+    public function dbz()
+    {
+        
     }
 }
