@@ -123,7 +123,7 @@ class PersonagensController extends Controller
 
     public function ola()
     {
-        $name = 'Fernando';
+        $name = 'nome';
         return view('hello', compact('name'));
     }
 }
